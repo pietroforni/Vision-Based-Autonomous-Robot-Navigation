@@ -51,12 +51,9 @@ The vision system assumes a fixed camera, a bright floor, a purple robot marker,
 a green heading marker, and a red goal. Marker loss or stale images stop the robot.
 These scene-specific assumptions limit transfer to other environments.
 
-Navigation project by **Pietro Forni**, built on the
+Navigation project built on the
 [USI RoboMaster course framework](https://github.com/idsia-robotics/robotics-lab-usi-robomaster).
-The [MIT license](LICENSE) credits Pietro Forni for his original contributions and
-modifications and preserves the framework copyright notice for Elia Cereda,
-Simone Arreghini, Mirko Nava, and Dario Mantegazza. External simulator and ROS
-dependencies have their own licenses.
+External simulator and ROS dependencies have their own licenses.
 
 Automated checks run the recorded-frame demo, marker detection, and planning on
 Python 3.10 and 3.12. Controller tests run when ROS is available; CI does not launch
