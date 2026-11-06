@@ -9,9 +9,9 @@ controls its heading and position; updated maps trigger replanning when needed.
 | --- | --- |
 | ![Camera view of the robot, walls and red goal](docs/media/overhead.jpg) | ![A star route around inflated obstacles](docs/media/path.jpg) |
 
-[![Animated preview of the original moving-obstacles demonstration](docs/media/moving-obstacles.gif)](docs/media/moving-obstacles.mp4)
+[![Full original moving-obstacles demonstration (50 seconds)](docs/media/moving-obstacles.gif)](docs/media/moving-obstacles.mp4)
 
-[Watch or download the full MP4](docs/media/moving-obstacles.mp4)
+[Watch or download the full 50-second MP4](docs/media/moving-obstacles.mp4)
 · [Project presentation](docs/presentation.pdf)
 
 ## Try the vision demo
