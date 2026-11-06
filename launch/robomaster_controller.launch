@@ -1,0 +1,13 @@
+<launch>
+  <arg name="name" default="rm0"/>
+  <arg name="camera_topic" default="/rm1/camera/image_color"/>
+  <arg name="update_mode" default="true"/>
+  <arg name="update_interval" default="3.0"/>
+  <arg name="margin" default="6"/>
+  <node pkg="robomaster_example" exec="robomaster_controller_node" namespace="$(var name)" output="screen">
+    <param name="camera_topic" value="$(var camera_topic)"/>
+    <param name="update_mode" value="$(var update_mode)"/>
+    <param name="update_interval" value="$(var update_interval)"/>
+    <param name="margin" value="$(var margin)"/>
+  </node>
+</launch>
